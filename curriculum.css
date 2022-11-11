@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background: #A7B8BF;
+  background-size:50%;
+  background-position:center;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container{
+	margin: 1em;
+  	padding: 1em;
+  	background-color: #f7fcff;
+	
+}
+
+.school .job-title{
+	text-transform: capitalize;
+}
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+.wrapper-habilities, .wrapper-languages{
+	display: inline-block;
+	width: 48%;
+}
+
+.wrapper-habilities{
+	align-content: left;
+}
+
+.wrapper-languages{
+	float: right;
+}
+
+.hability-percentage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hability-c{
+    width: 80%;
+    background-color: #BCE7C1;
+}
+.hability-java{
+    width: 80%;
+    background-color: #EED4D4;
+}
+.hability-web{
+    width: 60%;
+    background-color: #EFCC90;
+}
+
+.hability-python{
+    width: 90%;
+    background-color: #A3B2C9;
+}
+.hability-linux{
+    width: 70%;
+    background-color: #A5A5A5;    
+}
+
+.hability-cat{
+    width: 100%;
+    background-color: #FFFF83;    
+}
+
+.hability-english{
+	width: 90%;
+	background-color: #D13535;
+}
+
+.hability-french{
+    width: 50%;
+    background-color: #9290FF;    
+}
+
+.hability-italian{
+	width: 40%;
+	background-color: #6DCC73;
+}
+
+.hability-german{
+	width: 30%;
+	background-color: #FF8484;
+}
+
+.hability-percentage{
+    width: 100%;
+    background-color: #ddd;
+}
+.hability-imageContainer{
+    height: 30px;
+}
+
+footer {
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ color: white;
+ text-align: center;
+}
+
+footer section {
+  margin: 0 auto;
+}
+
+a {
+  color: #1C9C94;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px){
+  .course {
+    display: block;
+  }
+
+	main{
+		max-width: 100%;
+	}
+	
+  .course .title, .course .container .description {
+    max-width: 100%;
+  }
+  
+  .container{
+	  padding-left: 5%;
+	  padding-right: 5%;
+	  margin: 1em 0em 1em 0em;
+  }
+  
+  .wrapper-habilities, .wrapper-languages{
+	display: block;
+	width: 100%;
+	float: none;
+  }
+	
+	.wrapper-languages{
+		padding-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+	
+	main{
+		max-width: 100%;
+	}
+
+  .skills .column .container{
+    max-width: 100%;
+  }
+  
+  .container{
+	  padding-left: 5%;
+	  padding-right: 5%;
+	  margin: 1em 0em 1em 0em;
+  }
+  
+  .wrapper-habilities, .wrapper-languages{
+	display: block;
+	width: 100%;
+	float: none;
+  }
+	
+	.wrapper-languages{
+		padding-top: 1em;
+	}
+
+  footer {
+    text-align: center;
+  }
+}
