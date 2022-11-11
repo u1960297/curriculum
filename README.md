@@ -2,6 +2,7 @@ Some notes:
 
 - It's supposed to be a responsive website.
 - I've used a font named Raleway.
+- Website: https://u1960297.github.io/curriculum/
 
 -------
 
