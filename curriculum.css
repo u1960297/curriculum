@@ -1,54 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 header, main, footer {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 header {
-  padding: 2em;
-  text-align: center;
-  background: #A7B8BF;
-  background-size:50%;
-  background-position:center;
-  color: white;
+	padding: 2em;
+	text-align: center;
+	background: #A7B8BF;
+	background-size:50%;
+	background-position:center;
+	color: white;
 }
 
 body {
-  margin: 0;
-  font-family: 'Raleway';
-  font-size: 16px;
-  line-height: 1.8em;
+	margin: 0;
+	font-family: 'Raleway';
+	font-size: 16px;
+	line-height: 1.8em;
 }
 
 ul.job-description li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
+	content: "✔";
+	padding-right: 0.5em;
+	color: #509e98;
 }
 
 section{
-  margin: 1em;
-  padding: 1em;
+	margin: 1em;
+	padding: 1em;
 }
 
 header section {
-  margin: 0 auto;
-  max-width: 640px;
+	margin: 0 auto;
+	max-width: 640px;
 }
 
 header img {
-  border-radius: 50%;
-  max-width: 100px;
+	border-radius: 50%;
+	max-width: 100px;
 }
 
 h1 {
-  text-transform: uppercase;
-  margin: 1em 0;
+	text-transform: uppercase;
+	margin: 1em 0;
 }
 
 main {
-  max-width: 80%;
-  margin: 0 auto;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 .container{
@@ -63,8 +63,8 @@ main {
 }
 
 .school span, .job-title span {
-  color: #889499;
-  text-decoration: underline;
+	color: #889499;
+	text-decoration: underline;
 }
 
 .wrapper-habilities, .wrapper-languages{
@@ -144,50 +144,50 @@ main {
 }
 
 footer {
- padding: 1em 1.5em;
- background: #A7B8BF;
- color: white;
- text-align: center;
+	padding: 1em 1.5em;
+	background: #A7B8BF;
+	color: white;
+	text-align: center;
 }
 
 footer section {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 a {
-  color: #1C9C94;
-  text-decoration: none;
-  margin: 10px;
+	color: #1C9C94;
+	text-decoration: none;
+	margin: 10px;
 }
 
 a:hover {
-  opacity: 0.5;
+	opacity: 0.5;
 }
 
 @media only screen and (max-width: 768px){
-  .course {
-    display: block;
-  }
+	.course {
+		display: block;
+	}
 
 	main{
 		max-width: 100%;
 	}
 	
-  .course .title, .course .container .description {
-    max-width: 100%;
-  }
+	.course .title, .course .container .description {
+		max-width: 100%;
+	}
   
-  .container{
-	  padding-left: 5%;
-	  padding-right: 5%;
-	  margin: 1em 0em 1em 0em;
-  }
+	.container{
+		padding-left: 5%;
+		padding-right: 5%;
+		margin: 1em 0em 1em 0em;
+	}
   
-  .wrapper-habilities, .wrapper-languages{
-	display: block;
-	width: 100%;
-	float: none;
-  }
+	.wrapper-habilities, .wrapper-languages{
+		display: block;
+		width: 100%;
+		float: none;
+	}
 	
 	.wrapper-languages{
 		padding-top: 1em;
@@ -195,35 +195,35 @@ a:hover {
 }
 
 @media only screen and (max-width: 576px) {
-  .skills {
-    display: block;
-  }
+	.skills {
+		display: block;
+	}
 	
 	main{
 		max-width: 100%;
 	}
 
-  .skills .column .container{
-    max-width: 100%;
-  }
+	.skills .column .container{
+		max-width: 100%;
+	}
   
-  .container{
-	  padding-left: 5%;
-	  padding-right: 5%;
-	  margin: 1em 0em 1em 0em;
-  }
+	.container{
+		padding-left: 5%;
+		padding-right: 5%;
+		margin: 1em 0em 1em 0em;
+	}
   
-  .wrapper-habilities, .wrapper-languages{
-	display: block;
-	width: 100%;
-	float: none;
-  }
+	.wrapper-habilities, .wrapper-languages{
+		display: block;
+		width: 100%;
+		float: none;
+	}
 	
 	.wrapper-languages{
 		padding-top: 1em;
 	}
 
-  footer {
-    text-align: center;
-  }
+	footer {
+		text-align: center;
+	}
 }
