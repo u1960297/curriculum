@@ -1,3 +1,10 @@
+Some notes:
+
+- It's supposed to be a responsive website.
+- I've used a font named Raleway.
+
+-------
+
 Project analysis:
 
 1. Characterize the final user: who will be the final user? What is he/she expected to find in your project?
